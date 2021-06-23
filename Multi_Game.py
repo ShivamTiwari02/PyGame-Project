@@ -260,7 +260,7 @@ while run:
             man2.walkCount = 0
     else:
         if man2.jumpCount >= -10:
-            neg = 1
+            neg = 1f
             if man2.jumpCount < 0:
                 neg = -1
             man2.y -= (man2.jumpCount ** 2) * 0.5 * neg
